@@ -40,3 +40,5 @@
 <div style="margin-top: 20px;">
     <p><strong>Total Supplier:</strong> {{ count($sup) }}</p>
 </div>
+
+@endsection

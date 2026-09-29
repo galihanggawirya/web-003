@@ -37,7 +37,7 @@
         </tr>
         @empty
         <tr>
-            <td colspan="5" style="text-align: center;">Tidak ada data katalog dalam katalog ini.</td>
+            <td colspan="7" style="text-align: center;">Tidak ada data katalog dalam katalog ini.</td>
         </tr>
         @endforelse
     </tbody>
@@ -46,3 +46,5 @@
 <div style="margin-top: 20px;">
     <p><strong>Total Item:</strong> {{ count($items) }}</p>
 </div>
+
+@endsection

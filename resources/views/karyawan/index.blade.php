@@ -40,3 +40,5 @@
 <div style="margin-top: 20px;">
     <p><strong>Total Karyawan:</strong> {{ count($karyawan) }}</p>
 </div>
+
+@endsection
